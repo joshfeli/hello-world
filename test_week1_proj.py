@@ -11,10 +11,15 @@ class test_week1_proj(unittest.TestCase):
     os.environ['PLAYLIST_ID'] = 'PL9rbyFT14-WFy71Ed0Ihu4CbLczTftcC3'
 
   def test_get_playlist(self):
-    pass
+    self.assertEqual(get_playlist(limit=0), [])
+    self.assertRaises(get_playlist(limit="Invalid"))
+    self.assertRaises(get_playlist(limit=-1))
   
   def test_transform_data(self):
-    pass
+    self.assertEqual(transform_data({}), DataFrame())
+    self.assertEqual(transform_data([{}]), DataFrame())
+    self.assertRaises(transform_data([]))
 
   def test_enter_data(self):
-    pass
+    self.assertRaises(enter_data(None))
+    self.assertIsNone(enter_data(DataFrame()))
