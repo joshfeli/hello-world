@@ -1,14 +1,25 @@
-# SEO-Week-1-Project
+# SEO Tech Developer Program: Week 1 Project
 ![PEP8 Style Checker](https://github.com/joshfeli/hello-world/actions/workflows/first-workflow.yaml/badge.svg?event=push)
 
-SEO Tech Developer Program: Week 1 Project
-This project practices the skill of using real-world APIs and processing the JSON data returned as responses from the server. Requires installation of the `python-youtube` library:
+## At a Glance
+This project practices working with an API by grabbing the songs from one of my YouTube Music playlists and storing them in a database. In doing so, this project practices the skills of:
+- Retrieving data from an API,
+- Storing the data in a database
+- Writing code that follows the PEP8 style guidelines,
+- Using a Github workflow as a CI/CD tool,
+- Writing unit tests
+- Formatting clear documentation with README files.
+
+## Setup
+Requires installation of the `python-youtube`, `SQLAlchemy`, and `pandas` libraries. To install all three of these libraries at once, enter into your terminal:
 
 ```
-$ pip install python-youtube
+$ pip install -r requirements.txt
 ```
-OR, on Linux distributions:
+Or, on Linux distributions,
 ```
-$ sudo pip install python-youtube
+$ sudo pip install -r requirements.txt
 ```
-You can use this library by writing the statement `import pyyoutube` at the top of your files.
+
+## Acknowledgments
+This project is a result of participating in the [Tech Developer](https://www.seo-usa.org/career/tech/) program, hosted by [SEO USA](https://www.seo-usa.org). The work you see here is a product of the first week of the live residency.
