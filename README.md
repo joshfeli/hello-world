@@ -1,4 +1,4 @@
-# SEO Tech Developer Program: Week 1 Project
+# SEO Tech Developer Program: Week 1 Project: Playlist Display
 ![PEP8 Style Checker](https://github.com/joshfeli/hello-world/actions/workflows/first-workflow.yaml/badge.svg?event=push)
 
 ## At a Glance
